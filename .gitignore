@@ -1,0 +1,35 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+coverage/
+.turbo/
+
+# Local credentials and environment files
+.env*
+!.env.example
+/.aws/
+/.agents/
+/.codex/
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Scraped pages/data and local scratch file
+/res.html
+/response.json
+/tes.ts
+
+# Local caches and logs
+.cache/
+.pnpm-store/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
